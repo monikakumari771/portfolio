@@ -1,0 +1,110 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "image": "./Images/Project/petrocom-thumbnail.jpg",
+      "title": "Logistics Admin System",
+      "desc": " A complete System for Managing and Updating Logistic Delivery.",
+      "category": "website",
+      "date": "December 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "2",
+      "image": "./Images/Project/homecakebake.jpg",
+      "title": " Bakery Landing Website",
+      "desc": " Website boasts an intuitive and user-friendly interface, ensuring an effortless and enjoyable browsing experience.",
+      "category": "website",
+      "date": "November 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "3",
+      "image": "./Images/Project/AstroTech-thubnail.jpg",
+      "title": " AstroTech - Landing Page",
+
+      "desc": " A portfolio landing website for Astrologer where you can get your Personalised Kundali.",
+
+      "category": "website",
+      "date": "September 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "4",
+      "image": "./Images/Project/vbumca.jpg",
+      "title": " MCA Dept. Website / Stu. Management System",
+      "desc": "This revamped site signifies a leap forward in delivering a cutting-edge platform for students, faculty, and visitors ",
+      "category": "website",
+      "date": "September 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "5",
+      "image": "./Images/Project/CarrerPath-thubnail.jpg",
+      "title": " Carrer Path (Hackathon)",
+      "desc": " Creating an effective online platform to guide individuals in their career paths and provide access to various courses and educational resources.",
+      "category": "website",
+      "date": "July 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "6",
+      "image": "./Images/monika-raj.png",
+      "title": " My Portfolio",
+      "desc": "This is our Portfolio website made using React.Js",
+
+      "category": "website",
+      "date": "April 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "7",
+      "image": "./Images/Project/pran-thumbnail.jpg",
+      "title": " PRAN Edu. Web",
+      "desc": "This is a complete student based website for VBU students. Students can access notes, pyq, ebooks etc.",
+      "category": "website",
+      "date": "April 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "8",
+      "image": "./Images/Project/newswala.jpg",
+      "title": "NewsWala",
+
+      "desc": "Here this is News Blog website using API. Since I used local API so can't fetch data in browser.",
+
+      "category": "website",
+      "date": "january 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "9",
+      "image": "./Images/Project/textRajiv.jpg",
+      "title": " TextRajiv",
+
+      "desc": " TextRajiv is a simple website just for playing with characters.",
+      "category": "website",
+      "date": "November 2023",
+      "code": "#",
+      "live": "#"
+    },
+    {
+      "id": "10",
+      "image": "./Images/Project/popup.jpg",
+      "title": "Popup Alert",
+      "desc": " This is an simple module of popup alert.",
+      "category": "website",
+      "date": "April 2023",
+      "code": "#",
+      "live": "#"
+    }
+  ]
+}
