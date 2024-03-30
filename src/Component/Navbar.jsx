@@ -7,7 +7,7 @@ function Navbar() {
       <section id="navbar-sec">
         <div className="nav-class">
           <div className="left">
-            <img className="img" src="./Images/Monikalogo.png" />
+            <img className="img" src="./assets/Images/Monikalogo.png" />
           </div>
           <div className="right">
             <ul>

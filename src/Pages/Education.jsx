@@ -5,7 +5,7 @@ function Education() {
   return (
     <>
       <section id="education-sec">
-        <div className="education-cont">
+        <div className="education-cont" div data-aos="fade-up">
           <div className="left">
             <h1>Education Journey</h1>
             <div className="underline"></div>
@@ -23,21 +23,21 @@ function Education() {
             <button>Start Now</button>
           </div>
           <div className="right">
-            <img className="img" src="./Images/Images (3)/journey.png" />
+            <img className="img" src="./assets/Images/Images (3)/journey.png" />
           </div>
         </div>
       </section>
       {/* lets start section */}
       <section id="lets-section">
         <h1>Let's start</h1>
-        <div className="lets-cont">
+        <div className="lets-cont" div data-aos="fade-up">
           <div className="left">
-            <img className="img" src="./Images/dav.jpg" />
+            <img className="img" src="./assets/Images/dav.jpg" />
           </div>
           <div className="right">
             <div className="school-sec">
               <div className="school-image">
-                <img className="img" src="./Images/davlogo.jpeg" />
+                <img className="img" src="./assets/Images/davlogo.jpeg" />
               </div>
               <div className="school-item">
                 <h2>DAV Public School</h2>
@@ -54,14 +54,17 @@ function Education() {
             </p>
           </div>
         </div>
-        <div className="lets-cont lets-cont2">
+        <div className="lets-cont lets-cont2" div data-aos="fade-up">
           <div className="left">
-            <img className="img" src="./Images/Images (3)/isc.jpg" />
+            <img className="img" src="./assets/Images/Images (3)/isc.jpg" />
           </div>
           <div className="right">
             <div className="school-sec school-sec2">
               <div className="school-image">
-                <img className="img" src="./Images/Images (3)/isclogo.png" />
+                <img
+                  className="img"
+                  src="./assets/Images/Images (3)/isclogo.png"
+                />
               </div>
               <div className="school-item">
                 <h2>Inter Science College</h2>
@@ -79,14 +82,14 @@ function Education() {
             </p>
           </div>
         </div>
-        <div className="lets-cont">
+        <div className="lets-cont" div data-aos="fade-up">
           <div className="left">
-            <img className="img" src="./Images/k.b.jpg" />
+            <img className="img" src="./assets/Images/k.b.jpg" />
           </div>
           <div className="right">
             <div className="school-sec school-sec2">
               <div className="school-image school-image2">
-                <img className="img" src="./Images/k.blogo.jpg" />
+                <img className="img" src="./assets/Images/k.blogo.jpg" />
               </div>
               <div className="school-item">
                 <h2>K.B Women's College</h2>
@@ -109,10 +112,10 @@ function Education() {
       <section id="certificate">
         <h1>Certificates</h1>
         <div className="underline"></div>
-        <div className="certi-cont">
+        <div className="certi-cont" div data-aos="fade-up">
           <div className="certi-item1">
             <div className="freecode-image">
-              <img className="img" src="./Images/FreeCodeCamp.png" />
+              <img className="img" src="./assets/Images/FreeCodeCamp.png" />
             </div>
             <div className="certi-box">
               <h2>Responsive Web Design</h2>

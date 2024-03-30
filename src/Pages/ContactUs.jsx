@@ -9,7 +9,7 @@ function ContactUs() {
     <>
       <Touch />
       <section id="contact-us">
-        <div className="contact-work">
+        <div className="contact-work" div data-aos="fade-up">
           <h1>Feel free to contact Us</h1>
           <div className="contact-icon">
             <div className="icon1">

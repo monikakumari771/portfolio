@@ -9,7 +9,7 @@ function Journey() {
           <div className="left">
             <h1>My Journey</h1>
             <div className="underline"></div>
-            <img className="flag-img" src="./Images/flag.png" />
+            <img className="flag-img" src="./assets/Images/flag.png" />
           </div>
           <div className="right">
             <div className="details-box">
@@ -54,7 +54,7 @@ function Journey() {
                   </li>
                 </ul>
               </div>
-              <div className="right-cont">
+              <div className="right-cont" div data-aos="fade-up">
                 <ul>
                   <h2>Intermediate</h2>
                   <li>
@@ -95,7 +95,7 @@ function Journey() {
                   </li>
                 </ul>
               </div>
-              <div className="right-cont">
+              <div className="right-cont" div data-aos="fade-up">
                 <ul>
                   <h2> Graduation</h2>
                   <li>

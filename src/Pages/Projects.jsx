@@ -9,7 +9,7 @@ function Projects() {
   return (
     <>
       <section id="project-sec">
-        <div className="project-cont">
+        <div className="project-cont" div data-aos="fade-up">
           <div className="left">
             <h1>Projects & Experience</h1>
             <div className="underline"></div>
@@ -29,13 +29,13 @@ function Projects() {
             </button>
           </div>
           <div className="right">
-            <img className="img" src="./Images/Images (3)/project.jpg" />
+            <img className="img" src="./assets/Images/Images (3)/project.jpg" />
           </div>
         </div>
       </section>
       {/* project-container start */}
       <section id="project-container">
-        <div className="projects">
+        <div className="projects" div data-aos="fade-up">
           {projects.map((items) => {
             return (
               <div className="project1">

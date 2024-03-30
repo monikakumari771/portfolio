@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
 import Aos from "aos";
-
 function Hero() {
   useEffect(() => {
     Aos.init();
@@ -12,7 +11,11 @@ function Hero() {
       <section id="hero-sec">
         <div className="hero-class">
           <div className="left">
-            <img data-aos="fade-up" className="img" src="./Images/monika.png" />
+            <img
+              data-aos="fade-up"
+              className="img"
+              src="./assets/Images/monika.png"
+            />
           </div>
           <div className="right">
             <div className="hero-container" data-aos="fade-up">

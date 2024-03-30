@@ -26,12 +26,16 @@ function ProjectCarousel() {
       <section id="working-sec">
         <div className="latest-sec">
           <div className="work-cont">
-            <h3>My Latest Work</h3>
+            <h3 div data-aos="fade-up">
+              My Latest Work
+            </h3>
             <div className="underline"></div>
           </div>
 
           <div className="work-cont1">
-            <h3>EXPLORE WORK</h3>
+            <h3 div data-aos="fade-up">
+              EXPLORE WORK
+            </h3>
           </div>
         </div>
         <Carousel
@@ -51,16 +55,22 @@ function ProjectCarousel() {
           removeArrowOnDeviceType={["tablet", "mobile"]}
         >
           <div>
-            <img className="img" src="./Images/Project/homecakebake.jpg" />
+            <img
+              className="img"
+              src="./assets/Images/Project/homecakebake.jpg"
+            />
           </div>
           <div>
-            <img className="img" src="./Images/Project/vbumca.jpg" />
+            <img className="img" src="./assets/Images/Project/vbumca.jpg" />
           </div>
           <div>
-            <img className="img" src="./Images/Project/pran-thumbnail.jpg" />
+            <img
+              className="img"
+              src="./assets/Images/Project/pran-thumbnail.jpg"
+            />
           </div>
           <div>
-            <img className="img" src="./Images/monika-raj.png" />
+            <img className="img" src="./assets/Images/monika-raj.png" />
           </div>
         </Carousel>
       </section>

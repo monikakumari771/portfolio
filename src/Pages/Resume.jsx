@@ -1,16 +1,18 @@
 import React from "react";
 import { RxThickArrowRight } from "react-icons/rx";
+import Lineprogress from "../Component/Resume/Lineprogress";
+import Circleprogress from "../Component/Resume/Circleprogress";
 
 function Resume() {
   return (
     <>
       <section id="resume">
         <h1>Resume</h1>
-        <div className="underline"></div>
+        <div className="line"></div>
         <div className="education-cont">
           <div className="left">
             <h2>Education</h2>
-            <div className="educ-box">
+            <div className="educ-box" div data-aos="fade-up">
               <div className="educ-matrix">
                 <h3>Matriculation</h3>
               </div>
@@ -31,7 +33,7 @@ function Resume() {
                 <p>60%</p>
               </div>
             </div>
-            <div className="educ-box">
+            <div className="educ-box" div data-aos="fade-up">
               <div className="educ-matrix">
                 <h3>Intermediate</h3>
               </div>
@@ -56,7 +58,7 @@ function Resume() {
                 <p>68%</p>
               </div>
             </div>
-            <div className="educ-box">
+            <div className="educ-box" div data-aos="fade-up">
               <div className="educ-matrix">
                 <h3>Graduation</h3>
               </div>
@@ -81,10 +83,13 @@ function Resume() {
                 <p>8.3 SGPA</p>
               </div>
             </div>
+
+            <Lineprogress />
           </div>
+
           <div className="right">
             <h2>Experience</h2>
-            <div className="educ-box">
+            <div className="educ-box" div data-aos="fade-up">
               <div className="educ-matrix">
                 <h3>Frontend-Developer</h3>
               </div>
@@ -108,7 +113,7 @@ function Resume() {
                 </p>
               </div>
             </div>
-            <div className="educ-box">
+            <div className="educ-box" div data-aos="fade-up">
               <div className="educ-matrix">
                 <h3>Open Source Contribution</h3>
               </div>
@@ -130,7 +135,7 @@ function Resume() {
               </div>
             </div>
 
-            <div className="educ-box">
+            <div className="educ-box" div data-aos="fade-up">
               <div className="educ-matrix">
                 <h3>Graphics Designer</h3>
               </div>
@@ -161,6 +166,7 @@ function Resume() {
                 </p>
               </div>
             </div>
+            <Circleprogress />
           </div>
         </div>
       </section>

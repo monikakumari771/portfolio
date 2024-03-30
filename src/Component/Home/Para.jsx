@@ -19,7 +19,7 @@ function Para() {
             <img
               data-aos="fade-right"
               className="img"
-              src="./Images/Images (3)/human.png"
+              src="./assets/Images/Images (3)/human.png"
             />
           </div>
         </div>

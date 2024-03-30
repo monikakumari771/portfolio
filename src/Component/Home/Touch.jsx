@@ -11,7 +11,7 @@ function Touch() {
     <>
       <section id="touch-sec">
         <div className="touch-cont">
-          <div className="left">
+          <div className="left" div data-aos="fade-left">
             <h1>Get In Touch</h1>
             <div className="underline"></div>
             <p>We are there for you! How can I help?</p>
@@ -45,8 +45,11 @@ function Touch() {
             </button>
           </div>
           <div className="right">
-            <img className="img" src="./Images/Images (3)/contact-us.jpg" />
-            <div className="icons">
+            <img
+              className="img"
+              src="./assets/Images/Images (3)/contact-us.jpg"
+            />
+            <div className="icons" div data-aos="fade-right">
               <span className="icon1">
                 <ImLinkedin fontSize={30} />
               </span>

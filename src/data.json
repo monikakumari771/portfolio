@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "image": "./Images/Project/petrocom-thumbnail.jpg",
+      "image": "./assets/Images/Project/petrocom-thumbnail.jpg",
       "title": "Logistics Admin System",
       "desc": " A complete System for Managing and Updating Logistic Delivery.",
       "category": "website",
@@ -12,7 +12,7 @@
     },
     {
       "id": "2",
-      "image": "./Images/Project/homecakebake.jpg",
+      "image": "./assets/Images/Project/homecakebake.jpg",
       "title": " Bakery Landing Website",
       "desc": " Website boasts an intuitive and user-friendly interface, ensuring an effortless and enjoyable browsing experience.",
       "category": "website",
@@ -22,7 +22,7 @@
     },
     {
       "id": "3",
-      "image": "./Images/Project/AstroTech-thubnail.jpg",
+      "image": "./assets/Images/Project/AstroTech-thubnail.jpg",
       "title": " AstroTech - Landing Page",
 
       "desc": " A portfolio landing website for Astrologer where you can get your Personalised Kundali.",
@@ -34,7 +34,7 @@
     },
     {
       "id": "4",
-      "image": "./Images/Project/vbumca.jpg",
+      "image": "./assets/Images/Project/vbumca.jpg",
       "title": " MCA Dept. Website / Stu. Management System",
       "desc": "This revamped site signifies a leap forward in delivering a cutting-edge platform for students, faculty, and visitors ",
       "category": "website",
@@ -44,7 +44,7 @@
     },
     {
       "id": "5",
-      "image": "./Images/Project/CarrerPath-thubnail.jpg",
+      "image": "./assets/Images/Project/CarrerPath-thubnail.jpg",
       "title": " Carrer Path (Hackathon)",
       "desc": " Creating an effective online platform to guide individuals in their career paths and provide access to various courses and educational resources.",
       "category": "website",
@@ -54,7 +54,7 @@
     },
     {
       "id": "6",
-      "image": "./Images/monika-raj.png",
+      "image": "./assets/Images/monika-raj.png",
       "title": " My Portfolio",
       "desc": "This is our Portfolio website made using React.Js",
 
@@ -65,7 +65,7 @@
     },
     {
       "id": "7",
-      "image": "./Images/Project/pran-thumbnail.jpg",
+      "image": "./assets/Images/Project/pran-thumbnail.jpg",
       "title": " PRAN Edu. Web",
       "desc": "This is a complete student based website for VBU students. Students can access notes, pyq, ebooks etc.",
       "category": "website",
@@ -75,7 +75,7 @@
     },
     {
       "id": "8",
-      "image": "./Images/Project/newswala.jpg",
+      "image": "./assets/Images/Project/newswala.jpg",
       "title": "NewsWala",
 
       "desc": "Here this is News Blog website using API. Since I used local API so can't fetch data in browser.",
@@ -87,7 +87,7 @@
     },
     {
       "id": "9",
-      "image": "./Images/Project/textRajiv.jpg",
+      "image": "./assets/Images/Project/textRajiv.jpg",
       "title": " TextRajiv",
 
       "desc": " TextRajiv is a simple website just for playing with characters.",
@@ -98,7 +98,7 @@
     },
     {
       "id": "10",
-      "image": "./Images/Project/popup.jpg",
+      "image": "./assets/Images/Project/popup.jpg",
       "title": "Popup Alert",
       "desc": " This is an simple module of popup alert.",
       "category": "website",

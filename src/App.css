@@ -966,7 +966,7 @@ textarea {
 #resume h1 {
   font-size: 2.5rem;
 }
-#resume .underline {
+#resume .line {
   height: 4px;
   width: 90px;
   color: #17cf73;
@@ -980,7 +980,7 @@ textarea {
   font-size: 2.1rem;
 }
 #resume .education-cont .left,
-.right {
+#resume .education-cont .right {
   width: 50%;
 }
 
@@ -1047,6 +1047,53 @@ textarea {
 }
 #resume .education-cont .educ-box .para p {
   margin: 0px;
+}
+
+.coding-sec .skills .percentage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.coding-sec h3 {
+  font-size: 1.5rem;
+  padding-top: 100px;
+}
+.circle-sec h3 {
+  font-size: 1.5rem;
+  /* padding-top: 60px; */
+}
+.circle-sec {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.rc-progress-circle {
+  width: 174px;
+}
+.circle-skill .innerCircle {
+  position: relative;
+  top: 109px;
+  left: 50px;
+}
+.circle-sec .skill-par .circle-skill .innerCircle #number {
+  font-size: 30px;
+  font-weight: 500;
+}
+.circle-sec .skill-par .circle-skill {
+  margin-top: -50px;
+}
+
+.circle-sec .skill-par .circle-skill .innerCircle #skill {
+  font-size: 15px;
+  font-weight: 500;
+}
+.circle-sec .skill-par {
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
 }
 
 @media only screen and (max-width: 679px) {
@@ -1499,5 +1546,43 @@ textarea {
   }
   #certificate {
     padding: 0px;
+  }
+
+  #resume h1 {
+    font-size: 1.7rem;
+  }
+  #resume {
+    margin: 0px;
+  }
+  #resume .education-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #resume .education-cont h2 {
+    font-size: 1.7rem;
+  }
+  #resume p {
+    font-size: 0.9rem;
+  }
+  #resume .education-cont .left,
+  #resume .education-cont .right {
+    width: 379px;
+  }
+  .coding-sec h3 {
+    font-size: 1.7rem;
+    padding-top: 20px;
+  }
+  .circle-sec h3 {
+    font-size: 1.7rem;
+  }
+  .circle-sec {
+    padding-left: 0px;
+  }
+  .circle-sec .skill-par {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
   }
 }
