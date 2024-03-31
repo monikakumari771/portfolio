@@ -30,7 +30,7 @@
       "category": "website",
       "date": "September 2023",
       "code": "#",
-      "live": "#"
+      "live": "https://techiesgateway.com/#/PrivacyPolicy"
     },
     {
       "id": "4",
@@ -40,7 +40,7 @@
       "category": "website",
       "date": "September 2023",
       "code": "#",
-      "live": "#"
+      "live": "https://www.vbu.ac.in/mca"
     },
     {
       "id": "5",
@@ -49,8 +49,8 @@
       "desc": " Car racing websites used some tools of html, css, javascript.",
       "category": "website",
       "date": "July 2023",
-      "code": "#",
-      "live": "#"
+      "code": "https://github.com/monikakumari771/car-racing",
+      "live": "https://monika-car-racing.netlify.app/"
     },
     {
       "id": "6",
@@ -60,7 +60,7 @@
 
       "category": "website",
       "date": "April 2023",
-      "code": "#",
+      "code": "https://github.com/monikakumari771/portfolio",
       "live": "#"
     },
     {
@@ -70,8 +70,8 @@
       "desc": "This is a complete student based website for K.B.W students. Students can access notes, pyq, ebooks etc.",
       "category": "website",
       "date": "April 2023",
-      "code": "#",
-      "live": "#"
+      "code": "https://github.com/monikakumari771/Pran-register",
+      "live": "https://pran-register.netlify.app/"
     },
     {
       "id": "8",
@@ -82,8 +82,8 @@
 
       "category": "website",
       "date": "january 2023",
-      "code": "#",
-      "live": "#"
+      "code": "https://github.com/monikakumari771/Tic-Tac-Toe-Game-",
+      "live": "https://monikakumari771.github.io/Tic-Tac-Toe-Game-/"
     },
     {
       "id": "9",
@@ -93,8 +93,8 @@
       "desc": " Calculator App is used to calculate some specific values.",
       "category": "website",
       "date": "November 2023",
-      "code": "#",
-      "live": "#"
+      "code": "https://github.com/monikakumari771/Calculator-App",
+      "live": "https://monika-calculator-app.netlify.app/"
     },
     {
       "id": "10",
@@ -103,8 +103,8 @@
       "desc": " This is an simple module of Digital watch.",
       "category": "website",
       "date": "April 2023",
-      "code": "#",
-      "live": "#"
+      "code": "https://github.com/monikakumari771/Analog-Clock",
+      "live": "https://monika-analog-clock.netlify.app/"
     }
   ]
 }

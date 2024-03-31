@@ -993,11 +993,12 @@ a {
 }
 #resume h1 {
   font-size: 2.5rem;
+  margin: 0px;
 }
 #resume .line {
   height: 4px;
-  width: 90px;
-  color: #17cf73;
+  width: 50px;
+  background-color: #17cf73;
 }
 
 #resume .education-cont .educ-box .educ-matrix {
@@ -1006,6 +1007,8 @@ a {
 }
 #resume .education-cont h2 {
   font-size: 2.1rem;
+  padding-left: 30px;
+  padding-top: 50px;
 }
 #resume .education-cont .left,
 #resume .education-cont .right {
