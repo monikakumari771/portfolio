@@ -61,13 +61,13 @@ function ProjectCarousel() {
             />
           </div>
           <div>
-            <img className="img" src="./assets/Images/Project/vbumca.jpg" />
-          </div>
-          <div>
             <img
               className="img"
-              src="./assets/Images/Project/pran-thumbnail.jpg"
+              src="./assets/Images/Project/calculatorapp.png"
             />
+          </div>
+          <div>
+            <img className="img" src="./assets/Images/Project/pranapp.png" />
           </div>
           <div>
             <img className="img" src="./assets/Images/monika-raj.png" />

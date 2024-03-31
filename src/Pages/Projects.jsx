@@ -21,12 +21,14 @@ function Projects() {
               looking for new projects and Ideas. You can also reach out to me
               on any of the social media channels mentioned below.
             </p>
-            <button className="button-btn">
-              <span>
-                <FaStar color="orange" fontSize={22} />
-              </span>
-              <span>Start me on Github</span>
-            </button>
+            <Link to="https://github.com/monikakumari771/portfolio">
+              <button className="button-btn">
+                <span>
+                  <FaStar color="orange" fontSize={22} />
+                </span>
+                <span>Start me on Github</span>
+              </button>
+            </Link>
           </div>
           <div className="right">
             <img className="img" src="./assets/Images/Images (3)/project.jpg" />
@@ -52,9 +54,11 @@ function Projects() {
                       <span>Project Code</span>
                     </button>
                   </Link>
-                  <button>
-                    <span>Live Demo</span>
-                  </button>
+                  <Link to={items.live} target="_blank">
+                    <button>
+                      <span>Live Demo</span>
+                    </button>
+                  </Link>
                 </div>
               </div>
             );

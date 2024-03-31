@@ -7,6 +7,7 @@ import { FiInstagram } from "react-icons/fi";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   useEffect(() => {
@@ -27,26 +28,36 @@ function Footer() {
             <div className="right">
               <h1>Related Links</h1>
               <ul>
-                <li>
-                  <MdKeyboardDoubleArrowRight className="item" />
-                  Home
-                </li>
-                <li>
-                  <MdKeyboardDoubleArrowRight className="item" />
-                  Resume
-                </li>
-                <li>
-                  <MdKeyboardDoubleArrowRight className="item" />
-                  Project
-                </li>
-                <li>
-                  <MdKeyboardDoubleArrowRight className="item" />
-                  Education
-                </li>
-                <li>
-                  <MdKeyboardDoubleArrowRight className="item" />
-                  Contact Us
-                </li>
+                <Link to="/">
+                  <li>
+                    <MdKeyboardDoubleArrowRight className="item" />
+                    Home
+                  </li>
+                </Link>
+                <Link to="/Resume">
+                  <li>
+                    <MdKeyboardDoubleArrowRight className="item" />
+                    Resume
+                  </li>
+                </Link>
+                <Link to="/Projects">
+                  <li>
+                    <MdKeyboardDoubleArrowRight className="item" />
+                    Project
+                  </li>
+                </Link>
+                <Link to="/Education">
+                  <li>
+                    <MdKeyboardDoubleArrowRight className="item" />
+                    Education
+                  </li>
+                </Link>
+                <Link to="/contact">
+                  <li>
+                    <MdKeyboardDoubleArrowRight className="item" />
+                    Contact Us
+                  </li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -61,18 +72,24 @@ function Footer() {
           </div>
           <div className="right">
             <div className="itemicon">
-              <span className="icon1">
-                <ImLinkedin fontSize={25} className="icon" />
-              </span>
-              <span className="icon3">
-                <FaGithub size={25} className="icon" />
-              </span>
+              <Link to="https://www.linkedin.com/in/monika-kumari-2a17a4253/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <span className="icon1">
+                  <ImLinkedin fontSize={25} className="icon" />
+                </span>
+              </Link>
+              <Link to="https://github.com/monikakumari771/portfolio">
+                <span className="icon3">
+                  <FaGithub size={25} className="icon" />
+                </span>
+              </Link>
               <span className="icon1">
                 <BsTwitter size={25} className="icon" />
               </span>
-              <span className="icon2">
-                <FiInstagram size={25} className="icon" />
-              </span>
+              <Link to="https://www.instagram.com/itsmona771/?igsh=MWZ1aXMxZWtkZXllMg%3D%3D">
+                <span className="icon2">
+                  <FiInstagram size={25} className="icon" />
+                </span>
+              </Link>
             </div>
           </div>
         </div>

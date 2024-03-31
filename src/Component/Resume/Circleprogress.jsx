@@ -12,21 +12,21 @@ function Circleprogress() {
               <div id="number">80%</div>
               <div id="skill">Communication</div>
             </div>
-            <Circle percent={10} strokeWidth={10} strokeColor="#17cf73" />
+            <Circle percent={80} strokeWidth={10} strokeColor="#17cf73" />
           </div>
           <div className="circle-skill">
-            <div class="innerCircle">
+            <div class="innerCircle2">
               <div id="number">80%</div>
               <div id="skill">Logic</div>
             </div>
-            <Circle percent={10} strokeWidth={10} strokeColor="#17cf73" />
+            <Circle percent={80} strokeWidth={10} strokeColor="#17cf73" />
           </div>
           <div className="circle-skill">
-            <div class="innerCircle">
+            <div class="innerCircle3">
               <div id="number">75%</div>
               <div id="skill">Problem Solving</div>
             </div>
-            <Circle percent={10} strokeWidth={10} strokeColor="#17cf73" />
+            <Circle percent={75} strokeWidth={10} strokeColor="#17cf73" />
           </div>
         </div>
       </div>

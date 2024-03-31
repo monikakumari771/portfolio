@@ -5,6 +5,7 @@ import { BsFillPenFill } from "react-icons/bs";
 import { ImLinkedin } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Touch() {
   return (
@@ -50,12 +51,19 @@ function Touch() {
               src="./assets/Images/Images (3)/contact-us.jpg"
             />
             <div className="icons" div data-aos="fade-right">
-              <span className="icon1">
-                <ImLinkedin fontSize={30} />
-              </span>
-              <span className="icon2">
-                <FaGithub size={30} />
-              </span>
+              <Link
+                to="https://www.linkedin.com/in/monika-kumari-2a17a4253/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+              >
+                <span className="icon1">
+                  <ImLinkedin fontSize={30} />
+                </span>
+              </Link>
+              <Link to="https://github.com/monikakumari771/portfolio">
+                <span className="icon2">
+                  <FaGithub size={30} />
+                </span>
+              </Link>
               <span className="icon1">
                 <BsTwitter size={30} />
               </span>

@@ -2,6 +2,7 @@ import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { TbDeviceMobile } from "react-icons/tb";
 import { TbFileCertificate } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 function Help() {
   return (
@@ -9,33 +10,40 @@ function Help() {
       <section id="Help-section">
         <div className="LeftSectionHelp">
           <div className="left">
-            <div className="box">
-              <div className="box1">
-                <CgWebsite size={40} />
+            <Link to="/Projects">
+              <div className="box">
+                <div className="box1">
+                  <CgWebsite size={40} />
+                </div>
+
+                <div className="left-desc">
+                  <h1>Website</h1>
+                  <p>10+ project</p>
+                </div>
               </div>
-              <div className="left-desc">
-                <h1>Website</h1>
-                <p>10+ project</p>
+            </Link>
+            <Link to="/Projects">
+              <div className="box">
+                <div className="box2">
+                  <TbDeviceMobile size={40} />
+                </div>
+                <div className="left-desc">
+                  <h1>Mobile App</h1>
+                  <p>1+ project</p>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <div className="box2">
-                <TbDeviceMobile size={40} />
+            </Link>
+            <Link to="/Education">
+              <div className="box">
+                <div className="box3">
+                  <TbFileCertificate size={40} />
+                </div>
+                <div className="left-desc">
+                  <h1>Certification</h1>
+                  <p>10+</p>
+                </div>
               </div>
-              <div className="left-desc">
-                <h1>Mobile App</h1>
-                <p>1+ project</p>
-              </div>
-            </div>
-            <div className="box">
-              <div className="box3">
-                <TbFileCertificate size={40} />
-              </div>
-              <div className="left-desc">
-                <h1>Certification</h1>
-                <p>10+</p>
-              </div>
-            </div>
+            </Link>
           </div>
 
           <div className="right">

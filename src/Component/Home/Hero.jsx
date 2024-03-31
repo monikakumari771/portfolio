@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
 import Aos from "aos";
+import { Link } from "react-router-dom";
 function Hero() {
   useEffect(() => {
     Aos.init();
@@ -50,12 +51,16 @@ function Hero() {
                 Working for myself to imporve my skills.
               </p>
               <div className="hero-secbutton">
-                <button className="btn1">
-                  <span>Download CV</span>
-                </button>
-                <button className="btn2">
-                  <span>Contact</span>
-                </button>
+                <Link to="https://drive.google.com/file/d/1Ph8MwEXgNpJnL6eJ2wdBOGBtV5GlbwHY/view?usp=sharing">
+                  <button className="btn1">
+                    <span>Download CV</span>
+                  </button>
+                </Link>
+                <Link to="/contact">
+                  <button className="btn2">
+                    <span>Contact</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,13 +2,13 @@
   "projects": [
     {
       "id": "1",
-      "image": "./assets/Images/Project/petrocom-thumbnail.jpg",
-      "title": "Logistics Admin System",
-      "desc": " A complete System for Managing and Updating Logistic Delivery.",
+      "image": "./assets/Images/Project/school.png",
+      "title": "School Landing Website",
+      "desc": " Interactive, information website showcasing school's features, programs,and community.",
       "category": "website",
       "date": "December 2023",
-      "code": "#",
-      "live": "#"
+      "code": "https://github.com/monikakumari771/school-website",
+      "live": "https://monikakumari771.github.io/school-website/"
     },
     {
       "id": "2",
@@ -18,14 +18,14 @@
       "category": "website",
       "date": "November 2023",
       "code": "#",
-      "live": "#"
+      "live": "https://homecakeandbake.com/"
     },
     {
       "id": "3",
-      "image": "./assets/Images/Project/AstroTech-thubnail.jpg",
-      "title": " AstroTech - Landing Page",
+      "image": "./assets/Images/Project/techies.png",
+      "title": " Privacy Policy Page",
 
-      "desc": " A portfolio landing website for Astrologer where you can get your Personalised Kundali.",
+      "desc": " A Privacy Policy landing website  ia a legal document outline data handling practices transparently.",
 
       "category": "website",
       "date": "September 2023",
@@ -34,9 +34,9 @@
     },
     {
       "id": "4",
-      "image": "./assets/Images/Project/vbumca.jpg",
-      "title": " MCA Dept. Website / Stu. Management System",
-      "desc": "This revamped site signifies a leap forward in delivering a cutting-edge platform for students, faculty, and visitors ",
+      "image": "./assets/Images/Project/teachers.png",
+      "title": " MCA Dept. Teacher",
+      "desc": "Engage students, share some skills, communication and achievements.",
       "category": "website",
       "date": "September 2023",
       "code": "#",
@@ -44,9 +44,9 @@
     },
     {
       "id": "5",
-      "image": "./assets/Images/Project/CarrerPath-thubnail.jpg",
-      "title": " Carrer Path (Hackathon)",
-      "desc": " Creating an effective online platform to guide individuals in their career paths and provide access to various courses and educational resources.",
+      "image": "./assets/Images/Project/car.png",
+      "title": " Car Racing ",
+      "desc": " Car racing websites used some tools of html, css, javascript.",
       "category": "website",
       "date": "July 2023",
       "code": "#",
@@ -65,9 +65,9 @@
     },
     {
       "id": "7",
-      "image": "./assets/Images/Project/pran-thumbnail.jpg",
+      "image": "./assets/Images/Project/pranapp.png",
       "title": " PRAN Edu. Web",
-      "desc": "This is a complete student based website for VBU students. Students can access notes, pyq, ebooks etc.",
+      "desc": "This is a complete student based website for K.B.W students. Students can access notes, pyq, ebooks etc.",
       "category": "website",
       "date": "April 2023",
       "code": "#",
@@ -75,10 +75,10 @@
     },
     {
       "id": "8",
-      "image": "./assets/Images/Project/newswala.jpg",
-      "title": "NewsWala",
+      "image": "./assets/Images/Project/tic.png",
+      "title": "Tic Toe Game",
 
-      "desc": "Here this is News Blog website using API. Since I used local API so can't fetch data in browser.",
+      "desc": "Tic Toe Game is interactive Game and in this game used many tools like that html, css, javascript.",
 
       "category": "website",
       "date": "january 2023",
@@ -87,10 +87,10 @@
     },
     {
       "id": "9",
-      "image": "./assets/Images/Project/textRajiv.jpg",
-      "title": " TextRajiv",
+      "image": "./assets/Images/Project/calculatorapp.png",
+      "title": " Calculator App",
 
-      "desc": " TextRajiv is a simple website just for playing with characters.",
+      "desc": " Calculator App is used to calculate some specific values.",
       "category": "website",
       "date": "November 2023",
       "code": "#",
@@ -98,9 +98,9 @@
     },
     {
       "id": "10",
-      "image": "./assets/Images/Project/popup.jpg",
-      "title": "Popup Alert",
-      "desc": " This is an simple module of popup alert.",
+      "image": "./assets/Images/Project/watch.png",
+      "title": "Digital Watch",
+      "desc": " This is an simple module of Digital watch.",
       "category": "website",
       "date": "April 2023",
       "code": "#",
