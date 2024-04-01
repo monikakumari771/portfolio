@@ -13,6 +13,10 @@ function Footer() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  const gotoTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   return (
     <>
       <section id="footer-sec">
@@ -28,31 +32,31 @@ function Footer() {
             <div className="right">
               <h1>Related Links</h1>
               <ul>
-                <Link to="/">
+                <Link to="/" onClick={gotoTop}>
                   <li>
                     <MdKeyboardDoubleArrowRight className="item" />
                     Home
                   </li>
                 </Link>
-                <Link to="/Resume">
+                <Link to="/Resume" onClick={gotoTop}>
                   <li>
                     <MdKeyboardDoubleArrowRight className="item" />
                     Resume
                   </li>
                 </Link>
-                <Link to="/Projects">
+                <Link to="/Projects" onClick={gotoTop}>
                   <li>
                     <MdKeyboardDoubleArrowRight className="item" />
                     Project
                   </li>
                 </Link>
-                <Link to="/Education">
+                <Link to="/Education" onClick={gotoTop}>
                   <li>
                     <MdKeyboardDoubleArrowRight className="item" />
                     Education
                   </li>
                 </Link>
-                <Link to="/contact">
+                <Link to="/contact" onClick={gotoTop}>
                   <li>
                     <MdKeyboardDoubleArrowRight className="item" />
                     Contact Us

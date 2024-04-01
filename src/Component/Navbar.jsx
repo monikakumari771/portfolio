@@ -5,6 +5,9 @@ import { RxCross2 } from "react-icons/rx";
 
 function Navbar() {
   const [showMediaIcons, SetShowMediaIcons] = useState(false);
+  const gotoTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   return (
     <>
       <section id="navbar-sec">
@@ -14,19 +17,19 @@ function Navbar() {
           </div>
           <div className={showMediaIcons ? "show" : "right"}>
             <ul>
-              <Link to="/">
+              <Link to="/" onClick={gotoTop}>
                 <li>Home</li>
               </Link>
-              <Link to="/Resume">
+              <Link to="/Resume" onClick={gotoTop}>
                 <li>Resume</li>
               </Link>
-              <Link to="/Projects">
+              <Link to="/Projects" onClick={gotoTop}>
                 <li>Project</li>
               </Link>
-              <Link to="/Education">
+              <Link to="/Education" onClick={gotoTop}>
                 <li>Education/Certificate</li>
               </Link>
-              <Link to="/contact">
+              <Link to="/contact" onClick={gotoTop}>
                 <li>Contact</li>
               </Link>
             </ul>

@@ -305,6 +305,7 @@ body {
 #working-sec {
   padding-top: 10px;
   padding-bottom: 100px;
+  padding-left: 90px;
 }
 
 #working-sec .latest-sec {
@@ -939,12 +940,13 @@ a {
 }
 #certificate h1 {
   font-size: 2.5rem;
+  margin: 0px;
 }
 #certificate .underline {
   width: 50px;
   height: 4px;
   background-color: #17cf73;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 #certificate .certi-cont .certi-item1 .freecode-image .img {
@@ -1331,17 +1333,24 @@ a {
   }
 
   #working-sec {
-    padding-left: 50px;
+    padding-left: 0px;
     padding-bottom: 50px;
   }
 
   #working-sec .img {
-    width: 315px;
+    width: 68vw;
     height: 200px;
   }
   #working-sec .latest-sec {
     justify-content: flex-start;
     gap: 50px;
+    padding-left: 25px;
+  }
+  .react-multi-carousel-track {
+    gap: 50px !important;
+  }
+  .react-multi-carousel-list {
+    margin: 0 35px !important;
   }
 
   #technology-sec {
