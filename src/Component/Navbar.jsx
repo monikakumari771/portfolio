@@ -34,7 +34,11 @@ function Navbar() {
           {/* hamburget menu start */}
           <div className="hamburger-menu">
             <a href="#" onClick={() => SetShowMediaIcons(!showMediaIcons)}>
-              {showMediaIcons ? <RxCross2 /> : <GiHamburgerMenu />}
+              {showMediaIcons ? (
+                <RxCross2 size={30} />
+              ) : (
+                <GiHamburgerMenu size={30} />
+              )}
             </a>
           </div>
         </div>

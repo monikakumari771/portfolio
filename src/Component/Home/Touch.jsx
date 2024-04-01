@@ -12,7 +12,7 @@ function Touch() {
     <>
       <section id="touch-sec">
         <div className="touch-cont">
-          <div className="left" div data-aos="fade-left">
+          <div className="left" div data-aos="fade-up">
             <h1>Get In Touch</h1>
             <div className="underline"></div>
             <p>We are there for you! How can I help?</p>

@@ -39,19 +39,11 @@ function ProjectCarousel() {
           </div>
         </div>
         <Carousel
-          responsive={responsive}
-          additionalTransfrom={0}
-          swipeable={false}
-          draggable={false}
-          showDots={false}
-          ssr={true} // means to render carousel on server-side.
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={2000}
-          keyBoardControl={true}
-          customTransition="all .5s"
-          transitionDuration={500}
-          containerClass="carousel-container"
+          className="MyWorkCarousel"
+          responsive={responsive}
           removeArrowOnDeviceType={["tablet", "mobile"]}
         >
           <div>
