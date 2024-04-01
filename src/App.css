@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 #navbar-sec {
   box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 5px;
   background: rgba(0, 0, 0, 0.7);
@@ -1239,7 +1242,7 @@ a {
     font-size: 0.9rem;
   }
   #Help-section .LeftSectionHelp .left .box {
-    width: 300px;
+    width: 75vw;
     padding: 10px;
   }
   #Help-section .LeftSectionHelp .left .box .left-desc h1 {
@@ -1359,6 +1362,10 @@ a {
   }
   #technology-sec h1 {
     font-size: 1.3rem;
+  }
+  #navbar-sec .nav-class .show ul {
+    position: absolute;
+    right: 0;
   }
   #technology-sec .underline {
     width: 70px;
@@ -1537,7 +1544,7 @@ a {
     font-size: 0.9rem;
   }
   #project-sec .project-cont .right .img {
-    width: 350px;
+    width: 80vw;
   }
   #project-sec .project-cont .right {
     padding-left: 30px;
@@ -1606,7 +1613,7 @@ a {
     font-size: 0.9rem;
   }
   #education-sec .education-cont .right .img {
-    width: 400px;
+    width: 85vw;
     height: 230px;
   }
   #lets-section .lets-cont {
